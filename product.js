@@ -4,7 +4,9 @@ const { createStore, combineReducers } = require("redux");
 const GET_PRODUCTS = 'GET_PRODUCTS';
 const ADD_PRODUCT = "ADD_PRODUCT";
 
-
+//cart constants
+const GET_CART_ITEMS = 'GET_CART_ITEMS';
+const ADD_CART_ITEMS = "ADD_CART_ITEMS";
 
 //product states
 const initialProductState = {
